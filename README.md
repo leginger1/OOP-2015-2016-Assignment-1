@@ -24,3 +24,10 @@ To get the other 50% I should add advanced features to the program. Such as, but
 ##Deliverables
   - Deliverable 1: Due November 9th. A git repository for my assignment should be created. A Processing sketch should be         created that loads my chosen dataset into some data structure. The readme should include what my project is and waht I       plan to do.
   - Deliverable 2: Due December 7th. This is the final assignment submission, I should have screen-shots of my project and a     writeup of my project in the readme file. Assignment will then be demoed in the following weeks.
+
+
+
+
+## Deliverable 1 (Incomplete, things may be removed if they prove too problamatic to implement)
+  The data set that I have chosen is the perodic table of elements. I chose this because I thought it would be interesting if   all the pieces of data weren't the same type. The main graph I plan to use is bar graphs. I didn't pick it bacause it's the
+  easiest to code but that I feel it will show the the large abount of data in the easiest way to read possible. Because of    the large amount of elements in the data set I hope to make it so that you can scroll across the elements, zoom in/out,      select/deselect which elements will be shown, select bars in the graph to get a more in depth view of that specific          element, and possibly more things.
