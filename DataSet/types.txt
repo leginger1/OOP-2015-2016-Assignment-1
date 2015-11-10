@@ -1,19 +1,18 @@
-Atomic Number:				Int
-Element Name: 				String
-Symbol: 					String
-Atomic Weight: 				Float
-Phase: 						String
-Most Stable Crystal: 		String
-Type: 						String
-Ionic Radius: 				Float
-Atomic Radius: 				Float
-Electronegativity: 			Float
-First Ionization Potential: Float
-Density: 					Float
-Melting Point: 				Float
-Boiling Point: 				Float
-Isotopes: 					Int
-Discoverer: 				String
-Year of Discovery: 			Int
-Specific Heat Capacity: 	Float
-Electronic Configeration: 	Probably gonna get rid of
+Atomic Number:				Int	1
+Element Name: 				String	2
+Symbol: 				String	3
+Atomic Weight: 				Float	4
+Phase: 					String	5
+Most Stable Crystal: 			String	6
+Type: 					String	7
+Ionic Radius: 				Float	8
+Atomic Radius: 				Float	9
+Electronegativity: 			Float	10
+First Ionization Potential: 		Float	11
+Density: 				Float	12
+Melting Point: 				Float	13
+Boiling Point: 				Float	14
+Isotopes: 				Int`	15
+Discoverer: 				String	16
+Year of Discovery: 			Int	17
+Specific Heat Capacity: 		Float	18
