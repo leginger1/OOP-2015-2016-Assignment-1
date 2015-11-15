@@ -32,28 +32,28 @@ class Element{
       String[] prop = split(line, ",");
       
       //Turning the strings into usable data
-      for(int j=0; j<line.length; j++){
+      for(int j=0; j<prop.length; j++){
         //Using switch statment to go tell which property is which
         switch(j){
-          case 1:{ atomNum = parseInt(line[j]); break;}
-          case 2:{ elemName = line[j]; break;}
-          case 3:{ elemSymb = line[j]; break;}
-          case 4:{ atomWeig = parseFloat(line[j]); break;}
-          case 5:{ phase = line[j]; break;}
-          case 6:{ mSCrys = line[j]; break;}
-          case 7:{ type = line[j]; break;}
-          case 8:{ ionicRad = parseFloat(line[j]); break;}
-          case 9:{ atomRad = parseFloat(line[j]); break;}
-          case 10:{ electroneg = parseFloat(line[j]); break;}
-          case 11:{ fIonPot = parseFloat(line[j]); break;}
-          case 12:{ density = parseFloat(line[j]); break;}
-          case 13:{ meltPoint = parseFloat(line[j]); break;}
-          case 14:{ boilPoint = parseFloat(line[j]); break;}
-          case 15:{ isotopes = parseInt(line[j]); break;}
-          case 16:{ discover = line[j]; break;}
-          case 17:{ yearDisc = parseInt(line[j]); break;}
-          case 18:{ heatCap = parseFloat(line[j]); break;}
-          default:{ println("There was an error inserting data with property " + j+1); break;}
+          case 0:{ atomNum = parseInt(prop[j]); break;}
+          case 1:{ elemName = prop[j]; break;}
+          case 2:{ elemSymb = prop[j]; break;}
+          case 3:{ atomWeig = parseFloat(prop[j]); break;}
+          case 4:{ phase = prop[j]; break;}
+          case 5:{ mSCrys = prop[j]; break;}
+          case 6:{ type = prop[j]; break;}
+          case 7:{ ionicRad = parseFloat(prop[j]); break;}
+          case 8:{ atomRad = parseFloat(prop[j]); break;}
+          case 9:{ electroneg = parseFloat(prop[j]); break;}
+          case 10:{ fIonPot = parseFloat(prop[j]); break;}
+          case 11:{ density = parseFloat(prop[j]); break;}
+          case 12:{ meltPoint = parseFloat(prop[j]); break;}
+          case 13:{ boilPoint = parseFloat(prop[j]); break;}
+          case 14:{ isotopes = parseInt(prop[j]); break;}
+          case 15:{ discover = prop[j]; break;}
+          case 16:{ yearDisc = parseInt(prop[j]); break;}
+          case 17:{ heatCap = parseFloat(prop[j]); break;}
+          default:{ println("There was an error inserting data with property " + (j+1)); break;}
         }
       }
   } 
