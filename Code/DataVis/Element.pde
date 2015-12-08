@@ -139,7 +139,7 @@ class Element{
   
   //Returning the melting point
   public float getMeltPoint(){
-     return meltPoint; 
+     return meltPoint;         
   }
   
   //Returning the boiling point
