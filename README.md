@@ -28,6 +28,26 @@ To get the other 50% I should add advanced features to the program. Such as, but
 
 
 
-## Deliverable 1 (Incomplete, things may be removed if they prove too problamatic to implement)
+## Deliverable 1
   The data set that I have chosen is the perodic table of elements. I chose this because I thought it would be interesting if   all the pieces of data weren't the same type. The main graph I plan to use is bar graphs. I didn't pick it bacause it's the
-  easiest to code but that I feel it will show the the large abount of data in the easiest way to read possible. Because of    the large amount of elements in the data set I hope to make it so that you can scroll across the elements, zoom in/out,      select/deselect which elements will be shown, select bars in the graph to get a more in depth view of that specific          element, and possibly more things.
+  easiest to code but that I feel it will show the the large abount of data in the easiest way to read possible. Because of    the large amount of elements in the data set I hope to make it so that you can scroll across the elements, zoom in/out,      select/deselect which elements will be shown, select bars in the graph to get a more in depth view of that specific          element, and possibly more things
+  
+## Deliverable 2
+![alt tag](Screenshots/Capture1.PNG)
+This is the screen that you see when the program starts. Here you can see an empty graph as nothing has been selected, two buttons for selecting the type of graph you want to display, a reset button to set the graph so no elements get displayed, and two dropdown menus for selecting the elements to be graphed and and what attribute of that element will be graphed.
+
+
+![alt tag](Screenshots/Capture2.PNG)
+![alt tag](Screenshots/Capture3.PNG)
+Here you can see the dropdown menues. The first one for the elements is scrollable as there are a lot of elements that can be chosen from. The second is just a dropdown as there is not as many attributes. The elements can be selected,highlighted red, and deselected.
+
+
+![alt tag](Screenshots/Capture4.PNG)
+Here you can see some of the first elements displayed in a histogram. If an element that is selected doesnt have a piece of data for the category being graphed, it will be displayed as a big red bar the height of the graph. The widths of the bars are generated each time an element is added or removed from the graph.
+
+
+![alt tag](Screenshots/Capture5.PNG)
+Here is the bubble graph which is similar to the histogram. Howerever semi-transparent bubbles are drawn instead of bars. The size and height of bars is determined by the relative size of the value comepared to the current biggest value.
+
+![alt tag](Screenshots/untitled.PNG)
+Here you can see while in the histogram. If you hover over a bar, you eill get all the available information for that bar.
