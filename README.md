@@ -49,5 +49,5 @@ Here you can see some of the first elements displayed in a histogram. If an elem
 ![alt tag](Screenshots/Capture5.PNG)
 Here is the bubble graph which is similar to the histogram. Howerever semi-transparent bubbles are drawn instead of bars. The size and height of bars is determined by the relative size of the value comepared to the current biggest value.
 
-![alt tag](Screenshots/untitled.PNG)
+![alt tag](Screenshots/Untitled.png)
 Here you can see while in the histogram. If you hover over a bar, you eill get all the available information for that bar.
