@@ -88,7 +88,7 @@ class Graph{
          textSize(6);
          fill(255);
          //Numbers along bottom
-         text(curElem+1, xLoc + (barW/2), height - (border/4));
+         text(elements.get(i).getElemSymb(), xLoc + (barW/2), height - (border/4));
          
          //Highlighting bar with hover
          if(mouseX > xLoc && mouseX < xLoc+barW && mouseY > yLoc && mouseY < yLoc + barH){
@@ -151,7 +151,7 @@ class Graph{
          ellipse(xLoc, yLoc, rad*2, rad*2);
          textAlign(CENTER);
          textSize(6);
-         text(curElem+1, x + border + (barW*curElem) + (5*(curElem+1)) + (barW/2), height - (border/4));
+         text(elements.get(i).getElemSymb(), x + border + (barW*curElem) + (5*(curElem+1)) + (barW/2), height - (border/4));
          curElem++;
       }
     }
